@@ -1,0 +1,27 @@
+.menu-bar-item {
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.menu-bar-item>ul {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+}
+
+.menu-bar-item>ul>li {
+  display: flex;
+  padding: 5px;
+}
+
+.menu-bar-item>ul>li>a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+}
+
+.menu-bar-item>ul>li>a:hover {
+  color: blue;
+}
